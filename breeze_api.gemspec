@@ -1,10 +1,10 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "breeze_chms/version"
+require "breeze_api/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "breeze_chms"
+  spec.name          = "breeze_api"
   spec.version       = BreezeAPI::VERSION
   spec.authors       = ["Ziyan Junaideen"]
   spec.email         = ["ziyan@jdeen.com"]

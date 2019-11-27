@@ -2,5 +2,5 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# Specify your gem's dependencies in breeze_chms.gemspec
+# Specify your gem's dependencies in breeze_api.gemspec
 gemspec
