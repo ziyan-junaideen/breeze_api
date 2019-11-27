@@ -1,6 +1,6 @@
-RSpec.describe BreezeCHMS do
+RSpec.describe BreezeAPI do
   it "has a version number" do
-    expect(BreezeCHMS::VERSION).not_to be nil
+    expect(BreezeAPI::VERSION).not_to be nil
   end
 
   it "does something useful" do
