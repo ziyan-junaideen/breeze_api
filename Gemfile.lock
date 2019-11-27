@@ -2,11 +2,15 @@ PATH
   remote: .
   specs:
     breeze_chms (0.1.0)
+      faraday (~> 0.8.8)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.3)
+    faraday (0.8.11)
+      multipart-post (~> 1.2.0)
+    multipart-post (1.2.0)
     rake (10.5.0)
     rspec (3.3.0)
       rspec-core (~> 3.3.0)
@@ -27,7 +31,7 @@ PLATFORMS
 
 DEPENDENCIES
   breeze_chms!
-  bundler (~> 1.17)
+  bundler (~> 1.16)
   rake (~> 10.0)
   rspec (~> 3.0)
 
